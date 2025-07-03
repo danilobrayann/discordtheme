@@ -1,0 +1,43 @@
+/**
+ * @name MeuTemaPersonalizado
+ * @description Tema escuro com imagem de fundo
+ * @version 1.0
+ * @author Danilo
+ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css") /* SETTINGS  header caracters*/;
+:root {
+    /*SETTINGS color*/
+    --main-color: #0675f3bd; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+    --hover-color: #0bf01e; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+    /* status do discord*/
+    --online-color: #e40eae; /* online status color (hex, rgb or hsl) [default: #43b581] */
+
+    /* corpo do discord*/
+    --channel-hover: #f10c64;
+   
+
+/*configuração do cnal de texto*/
+    --channel-normal: #4e494794; /* channel text color [default: var(--interactive-normal)] */
+
+    --background-image: url(https://images7.alphacoders.com/117/1177246.jpg);
+    --background-position: center;
+    --background-size: cover;
+    --background-attachment: fixed;
+    --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+    --user-popout-image: var(--background-image);
+    --user-popout-position: var(--background-position);
+    --user-popout-size: var(--background-size);
+    --user-popout-attachment: var(--background-attachment);
+    --user-popout-filter: var(--background-filter);
+    --user-modal-image: var(--background-image);
+    --user-modal-position: var(--background-position);
+    --user-modal-size: var(--background-size);
+    --user-modal-attachment: var(--background-attachment);
+    --user-modal-filter: var(--background-filter);
+    --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+    --home-size: cover;
+     --main-font: "Poppins", sans-serif;; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+    --code-font: Consolas, "gg mono", "Liberation Mono", Menlo;
+}
